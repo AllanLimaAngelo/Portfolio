@@ -1,0 +1,22 @@
+@media screen and (min-width: 900px) {
+
+  .left {
+    width: 50%;
+  }
+
+  .right {
+    width: 48%;
+    position: absolute;
+    top: 0%;
+    right: 2%;
+  }
+
+  .information {
+    padding-top: 50px;
+  }
+
+  .education ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   }
+}

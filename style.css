@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&display=swap');
+
+:root {
+  --body-bg-color: #22212C;
+  --text-color: #837E9F;
+  --bg-cards: #302F3D;
+  --bg-techs: #CB92B1;
+}
+
+* {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  background-color: #22212C;
+  color: #837E9F;
+}
+
+h2 {
+  font-size: 1.8em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: #837E9F;
+}
+
+.header {
+  text-align: center;
+}
+
+.header img {
+  width: 50%;
+  border: 5px solid rgba(0, 128, 0, 0.423);
+  border-radius: 50%;
+  margin: 20px 0;
+}
+
+.header h1 {
+  font-size: 2em;
+  font-weight: bold;
+  
+}
+
+.header p {
+  font-size: 1.1em;
+  margin: 10px 0;
+}
+
+.information {
+  margin: 1em;
+  padding: 2em;
+}
+
+.information li {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  padding: 1em;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.information li img {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  padding-bottom: 10px ;
+}
+
+ .skills ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0px 10px;
+ }
+
+.skills li {
+  list-style: none;
+  text-align: center;
+  margin: 0.5em;
+  background-color: #CB92B1;
+  padding: 0.8em;
+  border-radius: 1em;
+  color: white;
+}
+
+.education li {
+  font-style: italic;
+  color: white;
+  margin-left: 40px;
+  padding-bottom: 15px;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-between;
+}
+
+.projects h2 {
+  position: relative;
+  top: 15px;
+  right: 20px;
+}
+
+.projects img{
+  width: 50px;
+}
+
+.projects a {
+  position: relative;
+  top: 50px;
+}
+
+.cards {
+  background-color: #302F3D;
+  transition: 0.5s;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.386);
+  
+}
+
+.cards:hover {
+  background-color: #393848;
+  transition: 0.5s;
+}
+
+footer {
+  text-align: center;
+}

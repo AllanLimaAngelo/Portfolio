@@ -1,0 +1,10 @@
+  @media screen and (min-width: 1100px) {
+    
+    .left {
+      width: 38%;
+    }
+
+    .right {
+      width: 60%;
+    }
+  }
